@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 #RESPOSTAS DA ATIVIDADE 2:
 
