@@ -1,7 +1,6 @@
 #RESPOSTAS DA ATIVIDADE 4:
 
 #PERGUNTA 1:
-
 # Solicita o nome do usuário
 nome_usuario = input("Digite o seu nome: ")
 
@@ -12,10 +11,10 @@ with open("usuarios.txt", "w", encoding="utf-8") as arquivo:
     arquivo.write(nome_usuario)
 arquivo.close()
 
+
 #PERGUNTA 2:
 # Permite que o usuário digite
 mensagem = input("Digite a mensagem para o chatbot: ")
-
 
 # Cria ou abre o arquivo 'chatbot.txt' no modo de escrita ('w')
 with open("chatbot.txt", "w", encoding="utf-8") as arquivo:
@@ -24,11 +23,11 @@ with open("chatbot.txt", "w", encoding="utf-8") as arquivo:
     arquivo.write(mensagem)
 arquivo.close()
 
+
 #PERGUNTA 3:
 # Pede para o usuário digitar suas notas
 nota1 = input("Digite a 1° nota: ")
 nota2 = input("Digite a 2° nota: ")
-
 
 # Cria o arquivo 'notas.txt' no modo de escrita ('w')
 with open("notas.txt", "w", encoding="utf-8") as arquivo:
@@ -54,8 +53,8 @@ print(conteudo)
 print("\n\n")
 print("###################### FIM DO CONTEÚDO DO ARQUIVO #############")
 
-#PERGUNTA 5
 
+#PERGUNTA 5
 # Digite o nome do usuário
 nome = input("Digite o seu nome de usuário: ")
 
@@ -64,6 +63,7 @@ with open("acessos.txt", "a", encoding="utf-8") as arquivo:
     # Acrescenta no final do arquivo o que o usuário digitou e pula uma linha
     arquivo.write(nome + "\n")
 arquivo.close()
+
 
 #PERGUNTA 6:
 # Digite a mensagem
@@ -76,8 +76,8 @@ with open("respostas.txt", "a", encoding="utf-8") as arquivo:
     arquivo.write(resposta_usuario + "\n")
 arquivo.close()
 
-#PERGUNTA 7:
 
+#PERGUNTA 7:
 # Cria o arquivo 'tarefas.txt' no modo de escrita ('w')
 with open("tarefas.txt", "w", encoding="utf-8") as arquivo:
 
@@ -93,8 +93,8 @@ with open("tarefas.txt", "w", encoding="utf-8") as arquivo:
 
 arquivo.close()
 
-#PERGUNTA 8:
 
+#PERGUNTA 8:
 palavra_digitada = input("Digite uma palavra: ").strip().lower()
 
 palavras_boas = ["bom", "ótimo", "otimo"]
@@ -115,8 +115,8 @@ with open("sentimentos.txt", "a", encoding="utf-8") as arquivo:
 
 arquivo.close()
 
-#PERGUNTA 9:
 
+#PERGUNTA 9:
 genero = input("Digite o seu gênero de filme favorito? (ex: ação, aventura, fantasia): ").strip().lower()
 
 if genero in ["ação", "acao"]:
