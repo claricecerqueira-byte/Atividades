@@ -2,11 +2,11 @@
 #RESPOSTAS DA ATIVIDADE 2:
 
 #PERGUNTA 1:
-
 numero1 = float(input("Digite o 1° número: "))
 numero2 = float(input("Digite o 2° número: "))
 soma = numero1 + numero2
 print(soma)
+
 
 #PERGUNTA 2:
 numero = int(input("Digite o 1° número: "))
@@ -21,6 +21,7 @@ numero2 = float(input("Digite o 2° nota: "))
 numero3 = float(input("Digite o 3° nota: "))
 media = (numero1 + numero2 + numero3)/3
 print("A média é:", media)
+
 
 """#PERGUNTA 4:
 a) O que o código acima faz?
@@ -53,8 +54,8 @@ quantas vezes forem definadas.
 
 """
 
-#PERGUNTA 5
 
+#PERGUNTA 5
 numero = float(input("Digite o 1° número: "))
 if(numero >= 9):
     print("Desempenho excelente!")
@@ -65,6 +66,7 @@ elif(numero >= 5):
 else:
     print("Desempenho insuficiente!")
 
+
 #PERGUNTA 6:
 numero = float(input("Digite o 1° número: "))
 if(numero == 0):
@@ -73,6 +75,7 @@ elif(numero > 0):
     print("positivo")
 else:
     print("negativo")
+
 
 #PERGUNTA 7:
 numero = float(input("Digite um número: "))
