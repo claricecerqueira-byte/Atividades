@@ -2,7 +2,6 @@
 #RESPOSTAS DA ATIVIDADE 3:
 
 #PERGUNTA 1:
-
 # Solicita ao usuário um gênero de filme
 print("Opções disponíveis: 1-ação, 2-fantasia, 3-aventura")
 genero = int(input())
@@ -17,6 +16,7 @@ else:
 # Caso o usuário digite algo diferente das opções disponíveis
     print("\n❌ Opção inválida. Por favor, reinicie o programa e escolha entre: ação, comédia ou terror.")
 
+
 #PERGUNTA 2:
 # Definindo as listas de palavras para a nossa base de dados
 positivas = ["bom", "ótimo"]
@@ -30,6 +30,7 @@ elif opniaoUsuario in negativas:
 else:
     print("Neutro")
 
+
 #PERGUNTA 3:
 USUARIO_CORRETO = "admin"
 SENHA_CORRETA = "12345"
@@ -41,8 +42,8 @@ if usuario == USUARIO_CORRETO and senha == SENHA_CORRETA:
 else:
     print("Acesso negado")
 
-#PERGUNTA 4:
 
+#PERGUNTA 4:
 notas = []
 for i in range(1, 6):
     nota = float(input(f"Digite a {i}ª nota: "))
@@ -54,8 +55,8 @@ if media >= 7:
 else:
     print("Reprovado")
 
-#PERGUNTA 5
 
+#PERGUNTA 5
 mensagem = ""
   # Captura a mensagem, remove os espaços extras e coloca a mensagem em minúsculo
 while mensagem != "tchau":
@@ -70,6 +71,7 @@ while mensagem != "tchau":
     else:
         # 2.3
         print("Não entendi sua mensagem.")
+
 
 #PERGUNTA 6:
 palavras_positivas = ["bom", "ótimo"]
@@ -88,6 +90,7 @@ while True:
 
 # Exibe o resultado final
 print(f"\nTotal de palavra(s) positiva(s):  {contador_positivas}")
+
 
 #PERGUNTA 7:
 idade = int(input("Digite sua idade: "))
